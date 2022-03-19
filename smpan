@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Command line interface for SM/PAN.
+ */
+
+if (PHP_SAPI !== 'cli') {
+    echo '<br><br>Error: smpan must be run as a CLI application.';
+    exit(1);
+}
+
+require 'bin/smpan.php';
+
+if (!isset($argv) || !is_array($argv)) {
+    $argv = [];
+}
+
+$cli = new Smpan($argv);
+
+$cli->run();

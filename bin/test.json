@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://api.github.com/repos/caboodle-tech/transitional-app-builder/releases/54182231",
+        "assets_url": "https://api.github.com/repos/caboodle-tech/transitional-app-builder/releases/54182231/assets",
+        "upload_url": "https://uploads.github.com/repos/caboodle-tech/transitional-app-builder/releases/54182231/assets{?name,label}",
+        "html_url": "https://github.com/caboodle-tech/transitional-app-builder/releases/tag/v1.6.0",
+        "id": 54182231,
+        "author": {
+            "login": "blizzardengle",
+            "id": 11205240,
+            "node_id": "MDQ6VXNlcjExMjA1MjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11205240?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/blizzardengle",
+            "html_url": "https://github.com/blizzardengle",
+            "followers_url": "https://api.github.com/users/blizzardengle/followers",
+            "following_url": "https://api.github.com/users/blizzardengle/following{/other_user}",
+            "gists_url": "https://api.github.com/users/blizzardengle/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/blizzardengle/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/blizzardengle/subscriptions",
+            "organizations_url": "https://api.github.com/users/blizzardengle/orgs",
+            "repos_url": "https://api.github.com/users/blizzardengle/repos",
+            "events_url": "https://api.github.com/users/blizzardengle/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/blizzardengle/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "node_id": "RE_kwDOGS0Qx84DOsFX",
+        "tag_name": "v1.6.0",
+        "target_commitish": "main",
+        "name": "1.6.0",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2021-11-28T02:44:15Z",
+        "published_at": "2021-11-28T02:46:58Z",
+        "assets": [],
+        "tarball_url": "https://api.github.com/repos/caboodle-tech/transitional-app-builder/tarball/v1.6.0",
+        "zipball_url": "https://api.github.com/repos/caboodle-tech/transitional-app-builder/zipball/v1.6.0",
+        "body": "### TAB 1.6.0 (27 Nov 2021)\r\n\r\n- Required dev package `Node based Simple Server (NSS)` updated to latest patched version.\r\n\r\n### TAB 1.5.2 (13 Nov 2021)\r\n\r\n- Removed stray console log.\r\n\r\n### TAB 1.5.1 (13 Nov 2021)\r\n\r\n- Fixed bug in `bin/atab` where commands that start with hyphens (`-`) would not work.\r\n\r\n### TAB 1.5.0 (12 Nov 2021)\r\n\r\n- First public release that is usable on Windows OS.\r\n- Updated the MAN file.\r\n- Changed `rmdirSync` to `rmSync` for the latest LTS version of Node (16.13.#).\r\n- Added `--delay` flag to Mocha tests so the installation has time to finish on slower computers.\r\n- Updated tests to work with the new `--delay` flag and removed an incorrect test.\r\n- Fixed bug with LESS and SASS installation: Installs into the correct location now and does not assume you have either globally installed.\r\n- Fixed `loadTemplates` to handle new path structure which may include backslashes (\\\\) on windows.\r\n- Added version command to show the version of TAB you are using."
+    }
+]
